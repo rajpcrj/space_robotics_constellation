@@ -50,8 +50,21 @@ solution is visualized in **NVIDIA Isaac Sim** with animated multi-hop power bea
 | `figures/raan_histogram.png` | Distribution of RAAN across candidate orbits |
 | `figures/theta_histogram.png` | Distribution of orbital phase across the candidate grid |
 
-See [`docs/Space_Robotics_Report.pdf`](docs/Space_Robotics_Report.pdf) for the full report
-and [`docs/DESIGN_NOTES.md`](docs/DESIGN_NOTES.md) for detailed design notes.
+## Source notebooks
+
+| Notebook | Purpose |
+|----------|---------|
+| `notebooks/project_space_robotics_1.ipynb` | Main pipeline — segmentation, orbit propagation, visibility |
+| `notebooks/project_space_robotics_2.ipynb` | Constellation optimization pipeline |
+| `notebooks/project_space_robotics_2_v2.ipynb` | Revised optimization pipeline |
+| `notebooks/step_2_calculate_optimal_placements.ipynb` | Optimal ground-station (rectenna) placement |
+| `notebooks/compute_path_space_robotics.ipynb` | Multi-hop power-beam routing / path computation |
+
+## Documentation
+
+- [`docs/Space_Robotics_Paper.pdf`](docs/Space_Robotics_Paper.pdf) — full project report paper.
+- [`docs/Space_Robotics_Report.pdf`](docs/Space_Robotics_Report.pdf) — summary report.
+- [`docs/DESIGN_NOTES.md`](docs/DESIGN_NOTES.md) — detailed design notes.
 
 ## Author
 
